@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb5e6764bdad8214a0a81b907d38a0a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fb5e6764bdad8214a0a81b907d38a0a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb5e6764bdad8214a0a81b907d38a0a4 = L.map(
+                "map_fb5e6764bdad8214a0a81b907d38a0a4",
+                {
+                    center: [10.0, 95.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_29ec76b91c0cd63429c499620d802037 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var marker_e5df2d31732d8449f878f0bb8a37a201 = L.marker(
+                [3.5952, 98.6722],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_65d094a09ec30549d15d64d8abd6a46a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5df2d31732d8449f878f0bb8a37a201.setIcon(icon_65d094a09ec30549d15d64d8abd6a46a);
+        
+    
+        var popup_448ea344d2aabce0492e54902980d025 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30b6fd8697226aad4654c9480290bbd4 = $(`<div id="html_30b6fd8697226aad4654c9480290bbd4" style="width: 100.0%; height: 100.0%;">Medan, Sumatra (Indonesia Start)<br><b>Sep 01 – Sep 02</b></div>`)[0];
+            popup_448ea344d2aabce0492e54902980d025.setContent(html_30b6fd8697226aad4654c9480290bbd4);
+        
+
+        marker_e5df2d31732d8449f878f0bb8a37a201.bindPopup(popup_448ea344d2aabce0492e54902980d025)
+        ;
+
+        
+    
+    
+            var marker_6b1e3acb539e2995c590e13eb7697c45 = L.marker(
+                [3.5618, 98.1187],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_e34c5b1bc211b6c30decc196a4e4ce34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b1e3acb539e2995c590e13eb7697c45.setIcon(icon_e34c5b1bc211b6c30decc196a4e4ce34);
+        
+    
+        var popup_33477bfd4bae98bb1415e08959c3db9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2a795fd133f4cb310d4b590e7bc2f6d = $(`<div id="html_f2a795fd133f4cb310d4b590e7bc2f6d" style="width: 100.0%; height: 100.0%;">Bukit Lawang (Orangutans)<br><b>Sep 02 – Sep 04</b></div>`)[0];
+            popup_33477bfd4bae98bb1415e08959c3db9e.setContent(html_f2a795fd133f4cb310d4b590e7bc2f6d);
+        
+
+        marker_6b1e3acb539e2995c590e13eb7697c45.bindPopup(popup_33477bfd4bae98bb1415e08959c3db9e)
+        ;
+
+        
+    
+    
+            var marker_4bb3c453c5ea40ead4176900b0bb6ceb = L.marker(
+                [3.5267, 98.0253],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_dc5c8ea9166be7266ad0e6b4574d9ef3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bb3c453c5ea40ead4176900b0bb6ceb.setIcon(icon_dc5c8ea9166be7266ad0e6b4574d9ef3);
+        
+    
+        var popup_63ac7a2e94acab8db6e2dffac71ac284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e22210ce8894797e47f3169753c1f0 = $(`<div id="html_52e22210ce8894797e47f3169753c1f0" style="width: 100.0%; height: 100.0%;">Tangkahan (Elephants)<br><b>Sep 04 – Sep 06</b></div>`)[0];
+            popup_63ac7a2e94acab8db6e2dffac71ac284.setContent(html_52e22210ce8894797e47f3169753c1f0);
+        
+
+        marker_4bb3c453c5ea40ead4176900b0bb6ceb.bindPopup(popup_63ac7a2e94acab8db6e2dffac71ac284)
+        ;
+
+        
+    
+    
+            var marker_d589c998e5d2e8bcef49fcb0731d453b = L.marker(
+                [2.6844, 98.8758],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_bf4214c836a2182d862cf2860ca3df14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d589c998e5d2e8bcef49fcb0731d453b.setIcon(icon_bf4214c836a2182d862cf2860ca3df14);
+        
+    
+        var popup_1d0e2ad9e545c12fa1e12bf4ab1be08d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b413a2467d10a84a804705a3400a65d = $(`<div id="html_4b413a2467d10a84a804705a3400a65d" style="width: 100.0%; height: 100.0%;">Lake Toba<br><b>Sep 06 – Sep 09</b></div>`)[0];
+            popup_1d0e2ad9e545c12fa1e12bf4ab1be08d.setContent(html_4b413a2467d10a84a804705a3400a65d);
+        
+
+        marker_d589c998e5d2e8bcef49fcb0731d453b.bindPopup(popup_1d0e2ad9e545c12fa1e12bf4ab1be08d)
+        ;
+
+        
+    
+    
+            var marker_0951b224ac84ef591311446f4d50b125 = L.marker(
+                [-7.7956, 110.3695],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_5e6b552faaf035c4f6e24a9dc4b97767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0951b224ac84ef591311446f4d50b125.setIcon(icon_5e6b552faaf035c4f6e24a9dc4b97767);
+        
+    
+        var popup_c3b67417602bdae430f1bf38cf43e184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5760e58029e494417257b63d2283884 = $(`<div id="html_c5760e58029e494417257b63d2283884" style="width: 100.0%; height: 100.0%;">Yogyakarta, Java<br><b>Sep 09 – Sep 14</b></div>`)[0];
+            popup_c3b67417602bdae430f1bf38cf43e184.setContent(html_c5760e58029e494417257b63d2283884);
+        
+
+        marker_0951b224ac84ef591311446f4d50b125.bindPopup(popup_c3b67417602bdae430f1bf38cf43e184)
+        ;
+
+        
+    
+    
+            var marker_5bde8db70d3a4fed0c70c7f28a855a79 = L.marker(
+                [-7.9425, 112.953],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_6d61527bf43d9e1ce34246da91b73f8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5bde8db70d3a4fed0c70c7f28a855a79.setIcon(icon_6d61527bf43d9e1ce34246da91b73f8a);
+        
+    
+        var popup_61873d7d8513cff1f1900056841a5260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537ec27bb50db1a31b42424a9b66c19a = $(`<div id="html_537ec27bb50db1a31b42424a9b66c19a" style="width: 100.0%; height: 100.0%;">Bromo Volcano<br><b>Sep 14 – Sep 16</b></div>`)[0];
+            popup_61873d7d8513cff1f1900056841a5260.setContent(html_537ec27bb50db1a31b42424a9b66c19a);
+        
+
+        marker_5bde8db70d3a4fed0c70c7f28a855a79.bindPopup(popup_61873d7d8513cff1f1900056841a5260)
+        ;
+
+        
+    
+    
+            var marker_b07e8e33c5c8d4ea0747ec024d884345 = L.marker(
+                [-8.0586, 114.2423],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_30011a804015867111de7355a3f4fcb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b07e8e33c5c8d4ea0747ec024d884345.setIcon(icon_30011a804015867111de7355a3f4fcb4);
+        
+    
+        var popup_2d939a0af3907015ac2daa12f0f6b849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad469dd9b9386033a693b54af684c57 = $(`<div id="html_6ad469dd9b9386033a693b54af684c57" style="width: 100.0%; height: 100.0%;">Kawah Ijen<br><b>Sep 16 – Sep 18</b></div>`)[0];
+            popup_2d939a0af3907015ac2daa12f0f6b849.setContent(html_6ad469dd9b9386033a693b54af684c57);
+        
+
+        marker_b07e8e33c5c8d4ea0747ec024d884345.bindPopup(popup_2d939a0af3907015ac2daa12f0f6b849)
+        ;
+
+        
+    
+    
+            var marker_21e3054fd6cd85b442ea355d6b72c1c3 = L.marker(
+                [-8.4095, 115.1889],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_bde37fb319ad659fa8e3c787656918dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21e3054fd6cd85b442ea355d6b72c1c3.setIcon(icon_bde37fb319ad659fa8e3c787656918dc);
+        
+    
+        var popup_126f70728c20fe72d42db8be8b7ce8ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6abd904e554388bb90e8a245d8cc2548 = $(`<div id="html_6abd904e554388bb90e8a245d8cc2548" style="width: 100.0%; height: 100.0%;">Bali<br><b>Sep 18 – Sep 25</b></div>`)[0];
+            popup_126f70728c20fe72d42db8be8b7ce8ad.setContent(html_6abd904e554388bb90e8a245d8cc2548);
+        
+
+        marker_21e3054fd6cd85b442ea355d6b72c1c3.bindPopup(popup_126f70728c20fe72d42db8be8b7ce8ad)
+        ;
+
+        
+    
+    
+            var marker_862be0d483a489a11fff92d8572fb298 = L.marker(
+                [27.7172, 85.324],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_619fbd2747f9920c2b73e4cb67ff5b4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_862be0d483a489a11fff92d8572fb298.setIcon(icon_619fbd2747f9920c2b73e4cb67ff5b4a);
+        
+    
+        var popup_87142332131047dba9d88e402acd2e32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ace306cf0375ad492fc15783cc43912b = $(`<div id="html_ace306cf0375ad492fc15783cc43912b" style="width: 100.0%; height: 100.0%;">Kathmandu, Nepal<br><b>Sep 25 – Sep 27</b></div>`)[0];
+            popup_87142332131047dba9d88e402acd2e32.setContent(html_ace306cf0375ad492fc15783cc43912b);
+        
+
+        marker_862be0d483a489a11fff92d8572fb298.bindPopup(popup_87142332131047dba9d88e402acd2e32)
+        ;
+
+        
+    
+    
+            var marker_b6745d1917439887ede67d7291489fa1 = L.marker(
+                [28.2096, 83.9856],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_66b05215e6221b81a9f463e92f2bff3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6745d1917439887ede67d7291489fa1.setIcon(icon_66b05215e6221b81a9f463e92f2bff3f);
+        
+    
+        var popup_f0ad6d15f0ed46f0f0fa071f76dcbaf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fb9f748fed09831473fced598985bfe = $(`<div id="html_8fb9f748fed09831473fced598985bfe" style="width: 100.0%; height: 100.0%;">Pokhara (Trekking Base)<br><b>Sep 27 – Sep 29</b></div>`)[0];
+            popup_f0ad6d15f0ed46f0f0fa071f76dcbaf7.setContent(html_8fb9f748fed09831473fced598985bfe);
+        
+
+        marker_b6745d1917439887ede67d7291489fa1.bindPopup(popup_f0ad6d15f0ed46f0f0fa071f76dcbaf7)
+        ;
+
+        
+    
+    
+            var marker_f4432a959031cf2a4874eb1f6fb8d6aa = L.marker(
+                [28.4719, 83.669],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_579125563e81d1d181c895a2f6eb7b76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4432a959031cf2a4874eb1f6fb8d6aa.setIcon(icon_579125563e81d1d181c895a2f6eb7b76);
+        
+    
+        var popup_b98d4302743df80ff7b3c6ad3ddafeeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f25e8b5418236afc9c76c4169d87476a = $(`<div id="html_f25e8b5418236afc9c76c4169d87476a" style="width: 100.0%; height: 100.0%;">Khopra Ridge (Annapurna)<br><b>Sep 29 – Oct 08</b></div>`)[0];
+            popup_b98d4302743df80ff7b3c6ad3ddafeeb.setContent(html_f25e8b5418236afc9c76c4169d87476a);
+        
+
+        marker_f4432a959031cf2a4874eb1f6fb8d6aa.bindPopup(popup_b98d4302743df80ff7b3c6ad3ddafeeb)
+        ;
+
+        
+    
+    
+            var marker_61d7ec428e6f710ec05deca5d22856a8 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_11720550feb090cd76391e76423e747b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61d7ec428e6f710ec05deca5d22856a8.setIcon(icon_11720550feb090cd76391e76423e747b);
+        
+    
+        var popup_9c307dda0ff7008d6c864db4cf7573d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0c38d4b5e27dc41399a42a84481861e = $(`<div id="html_f0c38d4b5e27dc41399a42a84481861e" style="width: 100.0%; height: 100.0%;">Delhi, India<br><b>Oct 08 – Oct 11</b></div>`)[0];
+            popup_9c307dda0ff7008d6c864db4cf7573d2.setContent(html_f0c38d4b5e27dc41399a42a84481861e);
+        
+
+        marker_61d7ec428e6f710ec05deca5d22856a8.bindPopup(popup_9c307dda0ff7008d6c864db4cf7573d2)
+        ;
+
+        
+    
+    
+            var marker_5ff8c5e5e3a68a4da2cf3333c4b1ee15 = L.marker(
+                [25.3176, 82.9739],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_30a46655b832dcdab45b2e51dba24337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ff8c5e5e3a68a4da2cf3333c4b1ee15.setIcon(icon_30a46655b832dcdab45b2e51dba24337);
+        
+    
+        var popup_81f73ed2d0286039a2f26c27b347da62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddc0df7c728e34a1f21af6f8b42b6e76 = $(`<div id="html_ddc0df7c728e34a1f21af6f8b42b6e76" style="width: 100.0%; height: 100.0%;">Varanasi<br><b>Oct 11 – Oct 14</b></div>`)[0];
+            popup_81f73ed2d0286039a2f26c27b347da62.setContent(html_ddc0df7c728e34a1f21af6f8b42b6e76);
+        
+
+        marker_5ff8c5e5e3a68a4da2cf3333c4b1ee15.bindPopup(popup_81f73ed2d0286039a2f26c27b347da62)
+        ;
+
+        
+    
+    
+            var marker_c75db25e7e9b4d2404c9c6027f476907 = L.marker(
+                [30.0869, 78.2676],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_a2f17660375c0a2e14df668d6f186f11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c75db25e7e9b4d2404c9c6027f476907.setIcon(icon_a2f17660375c0a2e14df668d6f186f11);
+        
+    
+        var popup_d9876cf619764616fc5a3fdaa95d115a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1333e46e82b9b49c1289fc83da84128 = $(`<div id="html_d1333e46e82b9b49c1289fc83da84128" style="width: 100.0%; height: 100.0%;">Rishikesh<br><b>Oct 14 – Oct 18</b></div>`)[0];
+            popup_d9876cf619764616fc5a3fdaa95d115a.setContent(html_d1333e46e82b9b49c1289fc83da84128);
+        
+
+        marker_c75db25e7e9b4d2404c9c6027f476907.bindPopup(popup_d9876cf619764616fc5a3fdaa95d115a)
+        ;
+
+        
+    
+    
+            var marker_50833a32bdc6f96adb52e8c70b9b6204 = L.marker(
+                [13.7563, 100.5018],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_fb359f822a98fdabe5702bdab023b06e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_50833a32bdc6f96adb52e8c70b9b6204.setIcon(icon_fb359f822a98fdabe5702bdab023b06e);
+        
+    
+        var popup_72b75eab562dc84934cc6f0150646c2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09f6185792fd476fbae1b2040c41793a = $(`<div id="html_09f6185792fd476fbae1b2040c41793a" style="width: 100.0%; height: 100.0%;">Bangkok, Thailand<br><b>Oct 18 – Oct 21</b></div>`)[0];
+            popup_72b75eab562dc84934cc6f0150646c2b.setContent(html_09f6185792fd476fbae1b2040c41793a);
+        
+
+        marker_50833a32bdc6f96adb52e8c70b9b6204.bindPopup(popup_72b75eab562dc84934cc6f0150646c2b)
+        ;
+
+        
+    
+    
+            var marker_9da68127922e22e781f60155883c8bd3 = L.marker(
+                [18.7883, 98.9853],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_200d3a4c95716e69a07ce95fd69aad40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9da68127922e22e781f60155883c8bd3.setIcon(icon_200d3a4c95716e69a07ce95fd69aad40);
+        
+    
+        var popup_5a8e10e7633523abaa050ba7abc5e5a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7505e63cdde67b1a96d218cc9a0e6280 = $(`<div id="html_7505e63cdde67b1a96d218cc9a0e6280" style="width: 100.0%; height: 100.0%;">Chiang Mai<br><b>Oct 21 – Oct 25</b></div>`)[0];
+            popup_5a8e10e7633523abaa050ba7abc5e5a0.setContent(html_7505e63cdde67b1a96d218cc9a0e6280);
+        
+
+        marker_9da68127922e22e781f60155883c8bd3.bindPopup(popup_5a8e10e7633523abaa050ba7abc5e5a0)
+        ;
+
+        
+    
+    
+            var marker_7bffd369d3040ef514567a813bb330a1 = L.marker(
+                [10.0965, 99.84],
+                {}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+    
+            var icon_4fa6b32df4482b9725f15a5f47459cd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7bffd369d3040ef514567a813bb330a1.setIcon(icon_4fa6b32df4482b9725f15a5f47459cd8);
+        
+    
+        var popup_dafe8e164fb07e6c1840dc921974ce3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f325f1d7129e6d55d78455a6176932e2 = $(`<div id="html_f325f1d7129e6d55d78455a6176932e2" style="width: 100.0%; height: 100.0%;">Thai Islands (example: Koh Tao)<br><b>Oct 25 – Oct 31</b></div>`)[0];
+            popup_dafe8e164fb07e6c1840dc921974ce3e.setContent(html_f325f1d7129e6d55d78455a6176932e2);
+        
+
+        marker_7bffd369d3040ef514567a813bb330a1.bindPopup(popup_dafe8e164fb07e6c1840dc921974ce3e)
+        ;
+
+        
+    
+    
+            var poly_line_63b67a109e9f158f6b3f826b9570a36d = L.polyline(
+                [[3.5952, 98.6722], [3.5618, 98.1187], [3.5267, 98.0253], [2.6844, 98.8758], [-7.7956, 110.3695], [-7.9425, 112.953], [-8.0586, 114.2423], [-8.4095, 115.1889], [27.7172, 85.324], [28.2096, 83.9856], [28.4719, 83.669], [28.6139, 77.209], [25.3176, 82.9739], [30.0869, 78.2676], [13.7563, 100.5018], [18.7883, 98.9853], [10.0965, 99.84]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_fb5e6764bdad8214a0a81b907d38a0a4);
+        
+</script>
+</html>
